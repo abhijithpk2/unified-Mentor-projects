@@ -1,7 +1,11 @@
+*body{
+    background-color: rgb(243 243 246) !important;
+}
 body, section, html{
-    background-color: rgb(243, 243, 246, 1);
+    /* background-color: rgb(243, 243, 246, 1); */
     margin: 0;
-    padding: 0;     
+    padding: 0; 
+    background-color: rgb(243 243 246);
 }
 
 .navabr{
@@ -149,7 +153,7 @@ h1{
         margin-left: 575px;
         padding: 15px 55px;
         border: 1px solid gray;
-        border-radius: 20px !important;
+        border-radius: 5px !important;
         background-color: rgb(243, 243, 246, 1);
 }
 button{
@@ -203,12 +207,12 @@ h2{
 .content-description{
         margin-top: 20px;
 }
-.tiles{
+/* .tiless{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     overflow: hidden;
-}
+} */
 
 .rounded{
     width: 160px;
@@ -219,9 +223,10 @@ h2{
     display: flex;
     margin-top: 100px;
     overflow: hidden;
-        gap: 70px;
-            margin: 66px;
-            margin-top: 78px;
+    gap: 70px;
+    margin: 66px;
+    margin-top: 78px;
+    background-color: rgb(243 243 246 );
 }
 .tiles-img{
     width: 400px;
@@ -248,3 +253,138 @@ h2{
                 padding-bottom: 2px;
                 padding-top: 2px;
             }
+
+
+.cards2{
+    display: flex;
+    margin: 66px;
+    gap: 70px;
+    background-color: rgb(243 243 246);
+    
+}
+
+.newsletter{
+    background-color: rgb(243, 243, 246, 1);
+    width: 400px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.cards2-icon{
+font-size: 33px;
+padding-top: 50px;
+}
+.newsletter-h4{
+        padding-top: 25px;
+}
+.newsletter-p{
+    font-size: 17px;
+}
+.newsletter-input{
+        width: 310px;
+            margin: 50px;
+    border: 1px solid gray;
+        border-radius: 5px !important;
+        background-color: rgb(243, 243, 246, 1);
+}
+
+input::placeholder {
+    font-size: 16px;
+    color: gray;
+    text-align: left;
+    /* or center, right depending on your need */
+    opacity: 1;
+    /* Ensures the placeholder is visible */
+}
+.newsletter-btn{
+    background-color: yellow;
+    color: #000000;
+    font-weight: bold;
+}
+.paggination{
+    display: flex;
+    justify-content: center;
+        padding-top: 35px;
+        background-color: rgb(243 243 246);
+    
+}
+.page-p{
+    /* background-color: rgb(243, 243, 246, 1); */
+        padding: 15px;
+            border: 1px solid gray;
+                border-radius: 60px;
+}
+
+.last-section{
+    background-color: rgb(243 243 246);
+}
+.last-section-h1{
+    text-align: center;
+    background-color: rgb(243 243 246);
+}
+.last-section-img{
+        display: inline-block;
+            background-color: white;
+            border: 1px solid white;
+            margin-left: 70px;
+            border-radius: 10px;
+            margin-top: 70px;
+            margin-bottom: 40px;
+}
+.last-img-title{
+    font-weight: bold;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+.last-img{
+    margin: 33px;
+}
+.last-section-btn{
+    font-weight: bold;
+    padding: 12px;
+    margin-top: -12px;
+        margin-bottom: 10px;
+    
+}
+
+.footer-head{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 60px;
+            
+}
+#footer-input{
+        width: 23rem;
+            height: 3.5rem;
+            border-radius: 10px;
+}
+#footer-input::placeholder {
+    padding-left: 20px;
+    /* Adjust padding as needed */
+}
+.footer-social{
+        font-size: 30px;
+            margin-top: 15px;
+}
+.footer-social, i{
+    margin-right: 15px;
+}
+
+.footer-body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-column-p{
+    font-weight: bold;
+
+}
+.footer-last{
+    display: flex;
+        justify-content: space-between;
+}
+.footer-last-img{
+        width: 10rem;
+            height: 2rem;
+        
+}
