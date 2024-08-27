@@ -15,6 +15,9 @@ body, section, html{
     margin-top: 23px;
     padding-left: 70px;
     background:  rgb(243, 243, 246, 1);
+    position: sticky;
+        top: 0;
+        z-index: 1000;
    
 }
 .header-div{
@@ -102,43 +105,6 @@ body, section, html{
         
 }
 
-/* .two{
-    
-    margin-left: 88px;
-    margin-top: 0;
-    margin-bottom: 0rem;
-    display: inline-block;
-    /* align-items: center; 
-}
-.one, .four{
-    display:inline-block;
-    /* align-items: center; 
-
-.line-first{
-        font-weight: bold;
-        margin-top: -14px !important;
-            margin-bottom: 1rem;
-}
-
-/* p{
-    margin-top: -14px !important;
-    margin-bottom: 1rem;
-} */
-/*.line-second{
-    font-size: smaller
-}
-.three{
-    margin-left: 88px;
-    display: inline-block;
-}
-.four{
-    margin-left: 88px;
-    display: inline-block;
-}
-.four p{
-    overflow: hidden;
-    font-size: smaller;
-} */
 h1{
     font-size: 4rem !important;
     padding-top: 6rem !important;
@@ -207,13 +173,6 @@ h2{
 .content-description{
         margin-top: 20px;
 }
-/* .tiless{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    overflow: hidden;
-} */
-
 .rounded{
     width: 160px;
     margin-top: -19px;
@@ -283,19 +242,13 @@ padding-top: 50px;
 .newsletter-input{
         width: 310px;
             margin: 50px;
-    border: 1px solid gray;
-        border-radius: 5px !important;
-        background-color: rgb(243, 243, 246, 1);
+    /* border: 1px solid gray; */
+        /* border-radius: 5px !important; */
+        /* background-color: rgb(243, 243, 246, 1); */
 }
 
-input::placeholder {
-    font-size: 16px;
-    color: gray;
-    text-align: left;
-    /* or center, right depending on your need */
-    opacity: 1;
-    /* Ensures the placeholder is visible */
-}
+
+
 .newsletter-btn{
     background-color: yellow;
     color: #000000;
@@ -387,4 +340,14 @@ input::placeholder {
         width: 10rem;
             height: 2rem;
         
+}
+.newsletter-label{
+        width: 21rem;
+        height: 3.5rem;
+        border-radius: 10px;
+        border: solid 1px gray;
+        background-color: rgb(243 243 246);
+}
+.li{
+    color: gray;
 }
